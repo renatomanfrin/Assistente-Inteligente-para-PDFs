@@ -271,26 +271,3 @@ pip install --force-reinstall -r requirements.txt
 ## 📖 Licença
 
 Projeto desenvolvido para fins educacionais.
-
----
-
-## 🎬 Quick Start (TL;DR)
-
-```bash
-# 1. Instalar Ollama e puxar modelos
-ollama pull llama3 && ollama pull nomic-embed-text
-
-# 2. Setup Python
-python -m venv venv && .\venv\Scripts\Activate
-pip install -r requirements.txt
-
-# 3. Adicionar PDFs
-mkdir data
-# copiar arquivos .pdf para a pasta data/
-
-# 4. Rodar
-python RAG.py
-
-# 5. Fazer perguntas!
-# Digite suas perguntas em português natural
-```
